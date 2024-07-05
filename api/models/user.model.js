@@ -17,8 +17,12 @@
      password: {
         type: String,
         required: true,
+     },
+     profilePicture: {
+        type: String,
+        default: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
      }
-    }, {timestamp: true}
+    }, {timestamps: true}
 
  );
 
